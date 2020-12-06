@@ -1,3 +1,3 @@
 # intellishell
-Shell. Coming soon.<br>
-Check https://github.com/rahmanlar/intellishell-old for old intellishell.
+IntelliShell
+This is a early development version, so it can cause bugs, something can not work properly.
