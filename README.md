@@ -1,2 +1,2 @@
 # IntelliShell
-This is a early development version, so it can cause bugs, something can not work properly.
+This is a early development version, so bugs can occur, something would not work properly.
