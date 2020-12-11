@@ -25,6 +25,7 @@ Distributed under the terms of the MIT License.
 using namespace std;
 int main() {
   ExecutePlusPlus ex;
+  ex.ExecuteName("IntelliShell");
   char hostname[HOST_NAME_MAX];
   time_t ttime = time(0);
   char* dt = ctime(&ttime);
