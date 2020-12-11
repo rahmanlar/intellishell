@@ -6,33 +6,16 @@ Distributed under the terms of the MIT License.
 // Huge thanks for ferhatgec(https://github.com/ferhatgec)
 
 // include part from the ferhatgec/scrift
-#include <sstream>
 #include <ctype.h>
-#include <fstream>
-#include <memory>
-#include <stdlib.h>
 #include <dirent.h>
-#include <sys/types.h>
-#include <dirent.h>
-#include <sys/stat.h>
 #include <unistd.h>
 #include <time.h>
-#include <filesystem>
 #include <iostream>
 #include <cstdio>
-#include <vector>
-#include <algorithm>
 #include <string.h>
 #include <stdio.h>
 #include <locale.h>
 #include <ctype.h>
-#include <errno.h>
-#include <fcntl.h>
-#include <stdarg.h>
-#include <termios.h>
-#include <sys/ioctl.h>
-#include <termios.h>
-#include <stdbool.h>
 #include <thread>
 #include <string>
 #include <ctime>
