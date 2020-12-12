@@ -38,6 +38,11 @@ int main() {
       getline(cin, shell);
       ex.RunFunction(shell.c_str());
     }
+   while(shell.find("cd"));
+    std::string choosedirectory;
+     cout << "Choose a directory: ";
+     getline(cin, choosedirectory);
+     chdir(choosedirectory.c_str());
     while(shell != "exit");
   return 0;
 }
