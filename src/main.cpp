@@ -37,11 +37,6 @@ int main() {
       cout << "\033[1;34m" << getenv("USER") << "\033[0m"<< "\033[0;92m" << "@" << "\033[0m" << "\033[1;34m" << hostname << "\033[0m" << "\033[93m" << " | " << "\033[0m" << "\033[0;31m" << get_current_dir_name() << "\033[0m" << "\033[0;92m" " -> " << "\033[0m";
       getline(cin, shell);
   ex.RunFunction(shell.c_str());
-    while(shell.find("cd"));
-    std::string choosedirectory;
-     cout << "Choose a directory: ";
-     getline(cin, choosedirectory);
-     chdir(choosedirectory.c_str());
     }
    while(shell != "exit");
    
