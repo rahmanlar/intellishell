@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo c++ Intellishell.cpp -o  /usr/bin/intellishell
+sudo c++ src/main.cpp -o  /usr/bin/intellishell
